@@ -1,0 +1,13 @@
+class Lacteos:
+    def __init__(self,vencimiento,estado,color): # corrected method name to __init__
+        self.tamaño = vencimiento
+        self.estado = estado
+        self.color= color
+        # self.arrancado = false
+        
+leche = Lacteos ("10/02/2025", "liquido", "blanco")
+
+
+print(type(leche))
+
+print(leche.tamaño, leche.estado, leche.color)
